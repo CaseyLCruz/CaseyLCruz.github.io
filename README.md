@@ -4,11 +4,11 @@
 ---
 
 ## Introduction
-> Diabetes is a chronic medical condition that affects how the body creates energy from food. The food consumed is broken down into sugar, which is released into the bloodstream. When this happens, blood sugar levels go up, but the pancreas releases insulin to stabilize it. If a person has diabetes, their body cannot regulate blood sugar levels through the use of insulin as well as someone without diabetes. This results in too much blood sugar remaining in the bloodstream and can cause serious health concerns..
+> Diabetes is a chronic medical condition that affects how the body creates energy from food. The food consumed is broken down into sugar, which is released into the bloodstream. When this happens, blood sugar levels go up, but the pancreas releases insulin to stabilize it. If a person has diabetes, their body cannot regulate blood sugar levels through the use of insulin as well as someone without diabetes. This results in too much blood sugar remaining in the bloodstream and can cause serious health concerns (1).
   
-> In the U.S., there are around 38 million adults who have diabetes. It is the 8th leading cause of death in the U.S. and the number 1 cause of kidney failure, lower-limb amputation, and adult blindness. The number of adults diagnosed with diabetes has doubled in the last twenty years, which is a major problem.
+> In the U.S., there are around 38 million adults who have diabetes. It is the 8th leading cause of death in the U.S. and the number 1 cause of kidney failure, lower-limb amputation, and adult blindness. The number of adults diagnosed with diabetes has doubled in the last twenty years, which is a major problem (1).
 
->For this project, the dataset that will be used is from the Behavioral Risk Factor Surveillance System (BRFSS), which collects data on health-related risk behaviors and chronic health conditions. The specific dataset that will be analyzed contains data on whether a person has no diabetes or has diabetes/prediabetes and health indicators that they have or do not have. Examples of the indicators are high blood pressure and high cholesterol. This data can be used to understand the health indicators that relate to someone having diabetes. With that, information on general preventative measures can be identified and released to the public to show them which things are important to reduce their chances of having diabetes.
+>For this project, the dataset that will be used is from the Behavioral Risk Factor Surveillance System (BRFSS), which collects data on health-related risk behaviors and chronic health conditions. The specific dataset that will be analyzed contains data on whether a person has no diabetes or has diabetes/prediabetes and health indicators that they have or do not have (2). Examples of the indicators are high blood pressure and high cholesterol. This data can be used to understand the health indicators that relate to someone having diabetes. With that, information on general preventative measures can be identified and released to the public to show them which things are important to reduce their chances of having diabetes.
 
 ## How to use the Data Science Pipeline to Analyze Data
 > When working with data, there are four main aspects that are used: <font color=green>data collection</font>, <font color=green>data storage</font>, <font color=green>data analysis</font>, and <font color=green>data visualization</font>. Data collection is the process of gathering raw information from various sources, which can be done through web scraping. Data storage involves organizing, cleaning, and storing the data in a structured format that allows for easy retrieval and analysis. Data analysis is where stored data is transformed and manipulated to extract meaningful insights. Data presentation involves communicating the results of data analysis in a clear and understandable manner, often done through visualizations.
@@ -258,8 +258,8 @@ plt.show()
 > By using the confusion matrix and classification report together, it can help assess and identify potential areas of improvement in this classification model. From the visualizations of the two, it is clear there is work to do to improve the accuracy of the classification, specifically for correctly predicting the presence of diabetes when it is present. This is what was predicted after looking at the distribution of data. There is a clear bias towards predicting the absence of diabetes. This does make sense with how many more entries of the absence of diabetes there were compared to the number of entries with the presence of diabetes.
 
 ### Sources
->CDC Diabetes Info <br>www.cdc.gov/diabetes/basics/diabetes.html#:~:text=With%20diabetes%2C%20your%20body%20doesn,vision%20loss%2C%20and%20kidney%20disease
+>1. CDC Diabetes Info <br>www.cdc.gov/diabetes/basics/diabetes.html#:~:text=With%20diabetes%2C%20your%20body%20doesn,vision%20loss%2C%20and%20kidney%20disease
 
->Dataset <br> https://www.kaggle.com/datasets/julnazz/diabetes-health-indicators-dataset
+>2. Dataset <br> https://www.kaggle.com/datasets/julnazz/diabetes-health-indicators-dataset
 
->Python <br> https://www.python.org
+>3. Python <br> https://www.python.org
