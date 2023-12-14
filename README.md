@@ -238,7 +238,7 @@ plt.show()
 
 
 ```python
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report #for displaying classification reports
 
 # Visualize the classification report
 plt.figure(figsize=(8, 6))
